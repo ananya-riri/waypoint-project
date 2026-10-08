@@ -1,0 +1,9 @@
+.git
+node_modules
+**/node_modules
+**/dist
+**/.expo
+**/.env
+**/.env.*
+!.env.example
+*.zip

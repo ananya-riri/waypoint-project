@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "Waypoint",
+    "slug": "waypoint-projects",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "android": { "package": "com.waypoint.projects", "permissions": [] },
+    "plugins": ["expo-secure-store"]
+  }
+}

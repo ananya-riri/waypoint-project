@@ -1,0 +1,15 @@
+{
+  "name": "waypoint-project-management",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "dev:api": "npm run dev --workspace=@waypoint/api",
+    "dev:web": "npm run dev --workspace=@waypoint/web",
+    "dev:mobile": "npm run start --workspace=@waypoint/mobile",
+    "build:api": "npm run build --workspace=@waypoint/api",
+    "build:web": "npm run build --workspace=@waypoint/web",
+    "db:generate": "npm run db:generate --workspace=@waypoint/api",
+    "db:migrate": "npm run db:migrate --workspace=@waypoint/api"
+  }
+}
